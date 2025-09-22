@@ -1,10 +1,10 @@
 // config.js متطور
 window.APP_CONFIG = {
   // سيرفر أساسي
-  PRIMARY_SERVER: "https://server1.onrender.com",
+  PRIMARY_SERVER: "https://bot-k.onrender.com",
   
   // سيرفر احتياطي
-  BACKUP_SERVER: "https://server2.onrender.com",
+  BACKUP_SERVER: "https://bot-k.onrender.com",
   
   // إعدادات أخرى
   MAX_RETRIES: 3,
